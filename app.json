@@ -17,8 +17,8 @@
       "Auto filter bot for heroku",
       "Why I don't know LazyDeveloperr"
     ],
-    "website": "https://github.com/LazyDeveloperr/LazyPrincess",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincess",
+    "website": "https://github.com/SickXking11/LazyPrincess",
+    "repository": "https://github.com/SickXking11/LazyPrincess",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
