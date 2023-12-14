@@ -25,8 +25,7 @@ Here is the help for my COMMANDS."""
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Lazy Princess is an open source project. 
-- Source - https://github.com/sahildesai07/LazyPrincess  
-
+- Source - https://github.com/SickXking11/LazyPrincess
 <b>DEVS:</b>
 - <a href=https://t.me/rx_moviez >Rx Movie</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
