@@ -153,7 +153,7 @@ async def doc(bot, update):
        os.remove(ph_path) 
 
 
-# Born to make history @ultroidofficial !
+# Born to make history @rx_moviez !
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
 
@@ -371,7 +371,7 @@ async def next_page(bot, query):
         pass
     await query.answer()
 
-# Born to make history @ultroidofficial !
+# Born to make history @Rx_Linkz !
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
@@ -414,20 +414,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('♥️ Love @ultroidofficial ♥️')
+                    return await query.answer('♥️ Love @Rx_Linkz ♥️')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('♥️ Thank You ultroidofficial ♥️')
+                return await query.answer('♥️ Thank You Rx_Creator ♥️')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️ Thank You ultroidofficial ♥️')
+            return await query.answer('♥️ Thank You Rx_Creator ♥️')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -481,7 +481,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer('♥️ Thank You ultroidofficial ♥️')
+        return await query.answer('♥️ Thank You Rx_Creator ♥️')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('♥️ Thank You ultroidofficial ♥️')
+        return await query.answer('♥️ Thank You Rx_Creator ♥️')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -525,7 +525,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You ultroidofficial ♥️')
+        return await query.answer('♥️ Thank You Rx_Creator ♥️')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -543,7 +543,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️ Thank You ultroidofficial ♥️')
+        return await query.answer('♥️ Thank You Rx_Creator ♥️')
     elif query.data == "backcb":
         await query.answer()
 
@@ -554,7 +554,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('♥️ Thank You ultroidofficial ♥️')
+            return await query.answer('♥️ Thank You Rx_Creator ♥️')
         buttons = []
         for groupid in groupids:
             try:
@@ -635,7 +635,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Mere saamne jyada smart nhi banne ka sona 😒", show_alert=True)
+            await query.answer("I Like Your Smartness But Don't Be Oversmart😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
